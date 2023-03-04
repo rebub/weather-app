@@ -1,0 +1,55 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Weathered</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="search-box">
+            <ion-icon id="navigate" name="navigate"></ion-icon>
+            <input id="input_city" type="text" placeholder="France">
+            <button id="searchbtn">
+                <ion-icon name="search"></ion-icon>
+            </button>
+
+        </div>
+        <div class="not-found">
+            <ion-icon name="information-circle"></ion-icon>
+            <p>Invalid Location</p>
+        </div>
+
+        <div class="weather-box">
+            <ion-icon name="search"></ion-icon>
+            <p class="temperature"></p>
+            <p class="description"></p>
+        </div>
+
+        <div class="weather-details">
+            <div class="humidity">
+                <div class="text">
+                    <span></span>
+                    <p>Humidity</p>
+                </div>
+            </div>
+
+            <div class="wind">
+                <div class="text">
+                    <span></span>
+                    <p>Wind Speed</p>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <script src="js/index.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</body>
+
+</html>
